@@ -1,0 +1,57 @@
+{
+    "assessments": [
+        {
+            "id": 1,
+            "name": "React Basic Assessment",
+            "description": "This assessment challenges your React skills."
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "assessmentId": 1,
+            "type": "input",
+            "text": "Besides class-based components there are _____ components in React.",
+            "sampleSolution": "functional"
+        },
+        {
+            "id": 2,
+            "assessmentId": 1,
+            "type": "textarea",
+            "text": "Explain the usage of useEffect()",
+            "sampleSolution": "useEffect executes functions if a dependency (state or prop) changes. If no dependencies is give, the effect is only executed on initial rendering of the component."
+        },
+        {
+            "id": 3,
+            "assessmentId": 1,
+            "type": "choice",
+            "text": "How do you define a state in a functional component?",
+            "options": [
+                "const value = default",
+                "const [value, setValue] = useState(default)",
+                "const value = useState(default)"
+            ],
+            "sampleSolution": "const [value, setValue] = useState(default)"
+        }
+    ],
+    "participantResponses": [
+        {
+            "id": 1,
+            "participant": "someNickName90",
+            "questions": [
+                {
+                    "questionId": 1,
+                    "response": "functional"
+                },
+                {
+                    "questionId": 2,
+                    "response": "some explanation from the user"
+                },
+                {
+                    "questionId": 2,
+                    "response": "const [value, setValue] = useState(default)"
+                }
+            ]
+        }
+    ]
+}
